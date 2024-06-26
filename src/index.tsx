@@ -10,7 +10,7 @@ import RouteProvider from './Contexts/RouteProvider';
 import SnackbarProvider from './Contexts/SnackbarProvider';
 import './index.scss';
 
-const config = { baseUrl: 'https://api.jonagainsthumanity.io' };
+const config = { baseUrl: 'https://api.jonagainsthumanity.com' };
 if (!import.meta.env.PROD) {
   config.baseUrl = `http://${window.location.hostname}`;
 }
